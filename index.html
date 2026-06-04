@@ -38,6 +38,11 @@
       background: radial-gradient(circle at 30% 20%, rgba(255,255,255,0.08) 0%, transparent 50%);
       pointer-events: none;
     }
+
+    .jwatts-photo {
+      filter: contrast(1.05) saturate(1.1);
+      box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.4);
+    }
   </style>
 </head>
 <body class="bg-[#F5F0E6] text-gray-800">
@@ -141,7 +146,7 @@
         <div class="flex-shrink-0">
           <img src="JWatts.jpg" 
                alt="J. Watts Roberson" 
-               class="w-48 h-48 grayscale rounded-2xl object-cover shadow-xl ring-4 ring-[#F5F0E6]/30">
+               class="jwatts-photo w-56 h-56 object-cover rounded-3xl">
         </div>
         
         <div class="flex flex-wrap justify-center gap-6">
