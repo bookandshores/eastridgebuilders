@@ -8,26 +8,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --hunter-green: #355E3B;
+      --hunter-green: #25488E;
       --cream: #F5F0E6;
     }
-    body { 
-      font-family: 'Inter', sans-serif; 
+    body {
+      font-family: 'Inter', sans-serif;
       background-color: #F5F0E6;
     }
-    h1, h2, h3, .hero-subtitle { 
-      font-family: 'Playfair Display', serif; 
+    h1, h2, h3, .hero-subtitle {
+      font-family: 'Playfair Display', serif;
     }
-
     .hero-bg {
-      background: linear-gradient(180deg, 
-        rgba(53, 94, 59, 0.95) 0%, 
-        rgba(53, 94, 59, 0.92) 50%, 
-        rgba(53, 94, 59, 0.95) 100%),
+      background: linear-gradient(180deg,
+        rgba(37, 72, 142, 0.95) 0%,
+        rgba(37, 72, 142, 0.92) 50%,
+        rgba(37, 72, 142, 0.95) 100%),
         url('RH.jpg') center/cover no-repeat;
       position: relative;
     }
-    
+   
     .hero-bg::before {
       content: '';
       position: absolute;
@@ -38,7 +37,6 @@
       background: radial-gradient(circle at 30% 20%, rgba(255,255,255,0.08) 0%, transparent 50%);
       pointer-events: none;
     }
-
     .jwatts-photo {
       filter: contrast(1.05) saturate(1.1);
       box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.4);
@@ -51,39 +49,44 @@
     <div class="max-w-5xl mx-auto px-6">
       <h1 class="text-7xl font-bold mb-4 tracking-tight">Eastridge Builders, Inc.<span class="text-4xl align-super ml-1">™</span></h1>
       <p class="hero-subtitle text-3xl opacity-95">Over 45 Years of Excellence</p>
-      <p class="mt-4 text-xl">River Hills Resident • Licensed in SC & NC</p>
-     
+      <p class="mt-4 text-xl">Licensed in SC & NC • River Hills Resident</p>
+      
       <a href="tel:7042158818"
-         class="mt-10 inline-block bg-[#F5F0E6] text-[#355E3B] font-semibold text-xl px-10 py-4 rounded-lg hover:bg-white transition">
+         class="mt-6 inline-block bg-[#F5F0E6] text-[#25488E] font-semibold text-xl px-10 py-4 rounded-lg hover:bg-white transition">
         Call (704) 215-8818
       </a>
+      
+      <p class="mt-4 text-xl text-[#F5F0E6]">BBB A+ Rating</p>
+      
+      <div class="mt-4 flex justify-center">
+        <img src="BBB.png"
+             alt="BBB A+ Rating"
+             class="h-16 w-auto">
+      </div>
     </div>
   </header>
-
   <!-- About -->
   <section class="py-16 bg-white">
     <div class="max-w-5xl mx-auto px-6">
       <div class="grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <h2 class="text-4xl font-bold text-[#355E3B] mb-6">Timeless Craftsmanship Since 1980</h2>
+          <h2 class="text-4xl font-bold text-[#25488E] mb-6">Timeless Craftsmanship Since 1980</h2>
           <p class="text-lg leading-relaxed text-gray-700">
             Eastridge Builders specializes in high-quality custom homes, renovations, and remodeling in the Carolinas.
             As proud residents of River Hills, we understand the unique lifestyle of gated communities and deliver homes
             that reflect elegance, durability, and personal taste.
           </p>
-          <p class="mt-6 text-lg text-[#355E3B]">BBB Accredited • Fully Licensed & Insured</p>
         </div>
         <div class="bg-gray-100 h-96 rounded-2xl overflow-hidden">
-          <img src="custom.jpg" 
-               alt="Custom Home Construction" 
+          <img src="CUSTOMHOME.png"
+               alt="Custom Home Construction"
                class="w-full h-full object-cover">
         </div>
       </div>
     </div>
   </section>
-
   <!-- Design & Build -->
-  <section class="py-20 bg-[#355E3B] text-[#F5F0E6]">
+  <section class="py-20 bg-[#25488E] text-[#F5F0E6]">
     <div class="max-w-5xl mx-auto px-6">
       <h2 class="text-4xl font-bold text-center mb-12">Design & Build Services</h2>
       <div class="grid md:grid-cols-2 gap-12">
@@ -91,7 +94,7 @@
           <h3 class="text-2xl font-semibold mb-6">Our Design & Build Process</h3>
           <ul class="space-y-4 text-lg">
             <li>✅ Initial Consultation & Site Evaluation</li>
-            <li>✅ Custom Architectural Design</li>
+            <li>✅ Custom Design</li>
             <li>✅ Material & Finish Selections</li>
             <li>✅ Detailed Project Budgeting</li>
             <li>✅ Full Construction Management</li>
@@ -108,65 +111,61 @@
             <div class="bg-white/10 p-5 rounded-xl">Decks & Porches</div>
             <div class="bg-white/10 p-5 rounded-xl">Outdoor Living Spaces</div>
             <div class="bg-white/10 p-5 rounded-xl">Whole Home Remodeling</div>
-            <div class="bg-white/10 p-5 rounded-xl">Gated Community Homes</div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
   <!-- Services -->
   <section class="py-16 bg-white">
     <div class="max-w-5xl mx-auto px-6">
-      <h2 class="text-4xl font-bold text-[#355E3B] text-center mb-12">What We Build</h2>
+      <h2 class="text-4xl font-bold text-[#25488E] text-center mb-12">What We Build</h2>
       <div class="grid md:grid-cols-3 gap-8">
         <div class="text-center p-6">
-          <h3 class="font-semibold text-xl mb-3 text-[#355E3B]">New Construction</h3>
-          <p class="text-gray-600">Custom homes tailored to your vision in premier gated communities.</p>
+          <h3 class="font-semibold text-xl mb-3 text-[#25488E]">New Construction</h3>
+          <p class="text-gray-600">Custom homes that fit your lifestyle.</p>
         </div>
         <div class="text-center p-6">
-          <h3 class="font-semibold text-xl mb-3 text-[#355E3B]">Remodeling & Renovations</h3>
+          <h3 class="font-semibold text-xl mb-3 text-[#25488E]">Remodeling & Renovations</h3>
           <p class="text-gray-600">Kitchens, bathrooms, decks, porches, and complete home transformations.</p>
         </div>
         <div class="text-center p-6">
-          <h3 class="font-semibold text-xl mb-3 text-[#355E3B]">Room Additions</h3>
+          <h3 class="font-semibold text-xl mb-3 text-[#25488E]">Room Additions</h3>
           <p class="text-gray-600">Expand your living space with seamless, high-quality additions.</p>
         </div>
       </div>
     </div>
   </section>
-
   <!-- Contact -->
-  <section class="py-20 bg-[#355E3B] text-[#F5F0E6]">
+  <section class="py-20 bg-[#25488E] text-[#F5F0E6]">
     <div class="max-w-4xl mx-auto px-6 text-center">
       <h2 class="text-4xl font-bold mb-8">Ready to Build Your Dream Home?</h2>
       <p class="text-2xl mb-8">Contact J. Watts Roberson today</p>
-      
+     
       <div class="flex flex-col md:flex-row items-center justify-center gap-10">
         <div class="flex-shrink-0">
-          <img src="JWatts.jpg" 
-               alt="J. Watts Roberson" 
-               class="jwatts-photo w-56 h-56 object-cover rounded-3xl">
+          <img src="JWATTSPRO.jpg"
+               alt="J. Watts Roberson"
+               class="jwatts-photo w-56 h-[320px] object-cover object-top rounded-3xl">
         </div>
-        
+       
         <div class="flex flex-wrap justify-center gap-6">
           <a href="tel:7042158818"
-             class="inline-block bg-[#F5F0E6] text-[#355E3B] font-semibold text-xl px-10 py-5 rounded-lg hover:bg-white transition">
+             class="inline-block bg-[#F5F0E6] text-[#25488E] font-semibold text-xl px-10 py-5 rounded-lg hover:bg-white transition">
             Call (704) 215-8818
           </a>
           <a href="mailto:jwatts@eastridgebuilders.com"
-             class="inline-block border-2 border-[#F5F0E6] text-[#F5F0E6] text-xl px-10 py-5 rounded-lg hover:bg-white hover:text-[#355E3B] transition">
+             class="inline-block border-2 border-[#F5F0E6] text-[#F5F0E6] text-xl px-10 py-5 rounded-lg hover:bg-white hover:text-[#25488E] transition">
             Send Email
           </a>
         </div>
       </div>
-      
+     
       <p class="mt-10 text-lg">jwatts@eastridgebuilders.com</p>
     </div>
   </section>
-
   <!-- Footer -->
-  <footer class="bg-[#355E3B] text-[#F5F0E6] py-12 text-center">
+  <footer class="bg-[#25488E] text-[#F5F0E6] py-12 text-center">
     <div class="max-w-5xl mx-auto px-6">
       <p class="text-sm">© 2026 Eastridge Builders, Inc. • All Rights Reserved</p>
       <p class="text-sm mt-1">Licensed in South Carolina & North Carolina</p>
